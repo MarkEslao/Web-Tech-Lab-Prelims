@@ -8,7 +8,7 @@ body {
 	font-family: Arial,'Lucida Grande',Verdana,sans-serif;
 	text-align:center;
 	background:#10945C;
-
+	
 }
   
 #header {
@@ -16,7 +16,7 @@ body {
 	width:999px;
 	background:transparent;
 	margin:0 auto 0 auto;
-	padding-top:100px;
+	padding-top:95px;
 }
 
 #header li {
