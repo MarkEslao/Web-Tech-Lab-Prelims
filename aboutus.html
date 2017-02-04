@@ -8,7 +8,7 @@
 <body>
 
 	<div class="header">
-	<img src = "images/aboutus-header.png">
+	<img src = "images/aboutus-header.png" alt="image">
 	
 	<nav>
 	<ul>
@@ -21,6 +21,7 @@
 	</nav>
 	</div>
 	
+	<br>
 	<br>
 	<br>
 	<br>
@@ -49,40 +50,42 @@
 		</pre>
 	</div>
 	
-	<section class="grid">
-	
-        <div class="column1">
-        <a href='https://www.facebook.com/joyiiee'>
-		   <img src = "images/joy.jpg" height="500" width="500" alt="column"></a>
-        <h1>Joy Cabildo</h1>
-		</div>
-		
-        <div class="column2">
-		<a href='https://www.facebook.com/kthlndznclmrn'>
-		<img src = "images/kath.jpg" height="500" width="500" alt="column"></a>
-        <h1>Kathleen Calmerin</h1>
-		</div>
-        
-        <div class="column3">
-		<a href='https://www.facebook.com/MarrionK.Elgades'>
-		   <img src="images/mark.jpg" height="500" width="500" alt="column"></a>
-        <h1>Mark Eslao</h1>
-        </div>
-		
-		<div class="column4">
-		<a href='https://www.facebook.com/kennethneil26'>
-		   <img src="images/neil.jpg" height="500" width="500" alt="column"></a>
-        <h1>Neil Macalanda</h1>
-        </div>
-		
-		
-		<div class="column5">
-		<a href='https://www.facebook.com/holajamih'>
-		   <img src = "images/jamie.jpg" height="500" width="500" alt="column"></a>
-        <h1>Jamina Prades</h1>
-        </div>
-        
-    </section>
+	<div class="container">
+   <div id="content-slider">
+      <div id="slider">  <!-- Slider container -->
+         <div id="mask">  <!-- Mask -->
+
+         <ul>
+         <li id="first" class="firstanimation">  <!-- ID for tooltip and class for animation -->
+         <a href='https://www.facebook.com/holajamih'> <img src="images/jamie.jpg" alt="Jamie" height="150%" width="100%"/> </a>
+         <div class="tooltip"> <h1>Jamina Prades</h1> </div>
+         </li>
+
+         <li id="second" class="secondanimation">
+         <a href='https://www.facebook.com/kthlndznclmrn'> <img src="images/kath.jpg" alt="Kathleen" height="100%" width="100%"/> </a>
+         <div class="tooltip"> <h1>Kathleen Calmerin</h1> </div>
+         </li>
+
+         <li id="third" class="thirdanimation">
+         <a href='https://www.facebook.com/joyiiee'> <img src="images/joy.jpg" alt="Joy" height="150%" width="100%"/> </a>
+         <div class="tooltip"> <h1>Joy Cabildo</h1> </div>
+         </li>
+
+         <li id="fourth" class="fourthanimation">
+         <a href='https://www.facebook.com/MarrionK.Elgades'> <img src="images/mark.jpg" alt="Mark" height="200%" width="100%"/> </a>
+         <div class="tooltip"> <h1>Mark Eslao</h1> </div>
+         </li>
+
+         <li id="fifth" class="fifthanimation">
+         <a href='https://www.facebook.com/kennethneil26'> <img src="images/neil.jpg" alt="Neil" height="200%" width="100%"/> </a>
+         <div class="tooltip"> <h1>Neil Macalanda</h1> </div>
+         </li>
+         </ul>
+
+         </div>  <!-- End Mask -->
+         <div class="progress-bar"></div>  <!-- Progress Bar -->
+      </div>  <!-- End Slider Container -->
+   </div>
 	
 	<br>
 	
@@ -98,5 +101,6 @@
 	    </div>
 	</div>
 	
+</div>	
 </body>
 </html>
