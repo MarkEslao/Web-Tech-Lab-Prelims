@@ -1,3 +1,3 @@
 # Web-Tech-Lab-Prelims
 
-Upload the resources used in the HTML.
+Making of the CSS (styles and altstyles)
