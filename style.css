@@ -15,7 +15,6 @@ body {
 	height:66px;
 	width:999px;
 	background:transparent;
-	margin:0 auto 0 auto;
 	padding-top:95px;
 }
 
@@ -47,6 +46,7 @@ pre {
 	float:center;
 	width:685px;
 	padding:100px;
+    margin-top: 50px;
 }
 
 h1 {
@@ -58,34 +58,17 @@ h1 {
 	line-height: 26.4px;
 }
 
-#footer {
-	clear: both;
-	padding: 1em 2em;
-	background-color: #ccc;
-	margin: 0 auto 0 auto;
-	width: 95%;
-	float: center;
-}
 
-#footer p {
-	font:16px Arial, "Times New Roman", Times;
-	color:#262626;
-	text-align: center;
-}
-
-#footer-pad {
-	width:685px;
-	height: 5%;
-	padding:40px 0px 0px 300px;
-	text-align:center;
-}
 
 .line {
-	background: transparent url(images/footer-line.png) repeat-x top left;
+	
 	width:650px;
-	height:1px;
+	height:5px;
 	padding-bottom:10px;
-	margin:0 auto 0 auto;
+	margin-top:50px;
+}
+h3 {
+    color: white;
 }
 
 nav {
@@ -132,8 +115,7 @@ nav ul {
 				background: url("images/rss.png") left center no-repeat;
 			}
 section.grid {
-	margin-top: 50px;
-    
+	margin-top: 50px; 
 }
 .column1 {
 align-content: center;
@@ -193,8 +175,46 @@ background-color: lightgrey;
 margin-bottom: 100px;
 }
 
-/* BAGUIO CITY.HTML* */
+/* index grid */
+section.grid-index {
+	margin-top: 50px; 
+}
+.column1-index {
+display: inline-block;
+float:center;
+padding:  25px 50px 75px 100px;
+width:520px;
+border: 2px solid black;
+background-color: lightgrey;
+}
 
+.column2-index {
+display: inline-block;
+float:center;
+padding:  25px 50px 75px 100px;
+width:520px;
+border: 2px solid black;
+background-color: lightgrey;
+
+}
+.column3-index {
+display: inline-block;
+float: center;
+padding:  25px 50px 75px 100px;
+width:520px;
+border: 2px solid black;
+background-color: lightgrey;
+}
+.column4-index {
+display: inline-block;
+float: center;
+padding:  25px 50px 75px 100px;
+width:520px;
+border: 2px solid black;
+background-color: lightgrey;
+}
+
+/* BAGUIO CITY.HTML* */
 
 #wrapper
 { 
@@ -225,7 +245,7 @@ div.polaroid {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 10px;
   margin: 200px;
-  margin-top: 150px;
+  margin-top: 400px;
 }
 
 /* Slider */
