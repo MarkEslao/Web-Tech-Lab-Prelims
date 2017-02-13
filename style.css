@@ -29,9 +29,9 @@ body {
 	text-align: center;
 }
 
-#content {
+.content {
 	float: center;
-	padding: 100px;
+	padding-top: 100px;
 }
 
 pre {
